@@ -24,11 +24,7 @@ It is a secure local web application which allows users to track live stocks, ma
    - A code editor like PyCharm
    - Active internet connection
 
-   *To check your Python version:*
-   ```bash
-   python --version
 
-```
 
 2. **Download & Open**
 Get the project ZIP file and extract it into a folder.
@@ -71,7 +67,7 @@ Click the right mouse button on app.zip and then select Extract All....
 
 
 3. **Launch the application**
-Open the folder that has been extracted and double-click on **app.exe**. *(Make sure that the terminal window remains open when you're using the app!)*
+Open the folder that has been extracted and double-click on **app.exe**. 
 
 
 4. **🌐 Access through your browser**
@@ -83,29 +79,9 @@ To safely stop the local server, close the terminal window.
 
 
 
----
 
-## 🛠️ Troubleshooting
-
-* **Problem: Module not found**
-* *Fix:* Run your `pip install` commands again or check your virtual environment.
-
-
-* **Problem: Live price not loading**
-Solution: Make sure your internet connection is working and confirm that the stock ticker symbol is correct.
-
-
-* **Problem: Page not loading**
-Solution: Make sure that the Flask server is actually running in your terminal and that you are using the right local URL.
 
 
 
 ---
 
-## Credits & Acknowledgements
-
-The program was developed using Flask, yfinance, and feedparser. A special thank-you goes to the open-source contributors and the providers of financial data.
-
-```
-
-```
